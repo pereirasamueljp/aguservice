@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { AguSocket } from 'src/agu/core/interface/socket.interface';
+import { AguSocket } from '../../../agu/core/interface/socket.interface';
 
 
 @Injectable()

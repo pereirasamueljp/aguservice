@@ -8,7 +8,7 @@ import { getParams } from '../../../utils/getParams';
 import { WebSocketServer } from '@nestjs/websockets';
 import { AguSocket } from '../../core/interface/socket.interface';
 import { SocketGateway } from '../socket/socket.gateway';
-import { UserGuard } from 'src/agu/core/guard/user.guard';
+import { UserGuard } from '../../../agu/core/guard/user.guard';
 
 interface SocketEmitter<T> {
     type: string,
